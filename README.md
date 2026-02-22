@@ -61,6 +61,8 @@ cd OpenJFEM
 julia --project=. -e 'using Pkg; Pkg.instantiate()'
 ```
 
+Expand the "models.rar" files found inthe MYSTRAN and OpenGFEM folders to access the models and the results. 
+
 ## Quick Start
 
 ### 1. Run the Solver
