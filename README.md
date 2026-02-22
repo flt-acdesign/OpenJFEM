@@ -98,6 +98,8 @@ See `POST/POST_GUIDE.html` for detailed instructions.
 
 ### 3. Cross-validate with MYSTRAN
 
+MYSTRAN is included in this repository as well as its theoretical manual. The full MYSTRAN repository is https://github.com/MYSTRANsolver/MYSTRAN
+
 ```bash
 # Convert BDF to MYSTRAN format, run MYSTRAN, and collect results
 julia --project=. tools/converters/nastran_to_mystran.jl models/fwing/fwing.bdf
